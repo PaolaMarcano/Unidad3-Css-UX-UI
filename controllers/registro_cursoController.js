@@ -11,7 +11,7 @@ class Registro_cursoController{
     })
     
     await alumno.save()
-    respuesta.sendFile(path.resolve(__dirname,"../views/form-oferta.html"))
+    respuesta.sendFile(path.resolve(__dirname,"../views/form-oferta-completado.html"))
   }
 }
 
