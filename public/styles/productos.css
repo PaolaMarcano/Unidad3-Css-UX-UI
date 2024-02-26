@@ -85,7 +85,13 @@
   border-radius: 10px;
   text-align: center;
   width: 100%;
+  border: none;
 }
+
+.boton-carta:active{
+  background-color: #7200ec;
+}
+
 
 /* Tablet */
 @media (min-width: 540px){
@@ -223,6 +229,11 @@
   
   .p-carta-estado{
     font-size: 20px;
+  }
+
+  .boton-carta:hover{
+    background-color: #7200ec;
+    cursor: pointer;
   }
 } 
  

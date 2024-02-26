@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.encabezado{
+  top:0;
+}
+
+.section-carrito{
+  padding: 90px 0.5rem;
+  background-color: #fdeaff; 
+  height: 100vh;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.div-cartaProducto{
+  background-color: #d9d9d9; 
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 22px;
+  margin: 2rem 0;
+}
+
+.div-img-cartaProducto{
+  width: 140px;
+}
+
+.img-cartaProducto{
+  width: 115px;
+  height: 100%;
+  object-fit: scale-down;
+  padding: 2px 6px;
+}
+
+.div-cartaProducto-detalles{
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.div-cartaProducto-ico{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  float: right;
+  color: #5f5c5c;
+}
+
+.div-cartaProducto-ico:active{
+  color: #f00;
+}
+
+.h2-cartaProducto{
+  font-size: 18px;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+}
+
+.p-cartaProducto-precio{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  margin: 5px 0;
+}
+
+
+/*Escritorio*/
+
+@media (min-width: 1024px){
+  .section-carrito{
+    padding-top: 70px;
+  }
+} 
+
+
+/* Tablet */
+
+@media (min-width: 540px){
+  .section-carrito{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .div-img-cartaProducto{
+    width: 270px;
+  }
+  
+  .img-cartaProducto{
+    width: 200px;
+  }
+  
+  .h2-cartaProducto{
+    font-size: 30px;
+  }
+  
+  .p-cartaProducto-precio{
+    font-size: 25px;
+  }
+  
+  .div-cartaProducto-ico{
+    padding: 0 9px;
+  }
+  
+}
+
+/*Escritorio*/
+
+@media (min-width: 1024px){
+  .section-carrito{
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .div-cartaProducto-ico{
+    padding: 0 15px;
+  }
+  .div-cartaProducto-ico:hover{
+    color: #f00;
+    cursor: pointer;
+  }
+} 
+  

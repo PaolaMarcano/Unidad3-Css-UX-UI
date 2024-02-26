@@ -35,6 +35,10 @@ nav{
   padding: 8px;
 }
 
+.boton2:active{
+  background-color: #7200ec;
+}
+
 /* Escritorio */
 @media (min-width: 1024px){
   .encabezado{
@@ -44,5 +48,8 @@ nav{
       width: 100px;
       padding: 0;
       background-color: #9967ce;   
+  }
+  .boton2:hover{
+    background-color: #7200ec;
   }
 }
