@@ -43,7 +43,7 @@
 } 
 
 .boton3:hover{
-  background-color: #ff0747;
+  background-color: #ff0747; /* Efecto para botón*/
   color: #ffec07;
 }
 
