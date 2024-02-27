@@ -1,7 +1,7 @@
 # Unidad3-Css_-_UX-UI
 Repositorio de la e-actividad 3 de Frontend I
 
-Diseño de una página web responsive sobre una empresa que vende decoraciones, comida, y regalos para todo tipo de fiestas. La página cuenta con las siguientes partes:
+Diseño de un Sitio web responsive sobre una empresa que vende decoraciones, comida, y regalos para todo tipo de fiestas. La página cuenta con las siguientes partes:
 
 -Landing page que funciona como el inicio de la página.
 
