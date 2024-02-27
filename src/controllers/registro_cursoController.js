@@ -1,3 +1,5 @@
+/* Paola Valentina Marcano Salas (C.I: 30.975.611)  */
+
 var path = require('path');
 const Registro_cursoModel = require("../models/curso_alumnos")
 

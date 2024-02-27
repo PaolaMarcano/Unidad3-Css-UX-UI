@@ -1,3 +1,5 @@
+/* Paola Valentina Marcano Salas (C.I: 30.975.611)  */
+
 require("./public/styles/cabecera-secundaria.css");
 require("./public/styles/cabecera.css");
 require("./public/styles/carrito.css");

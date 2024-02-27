@@ -1,3 +1,5 @@
+/* Paola Valentina Marcano Salas (C.I: 30.975.611)  */
+
 require("../config/connectionDB")
 const { Schema, model } = require('mongoose')
 
