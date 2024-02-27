@@ -3,14 +3,16 @@
   padding: 0;
 }
 
-.encabezado{
+.cabecera{
   top:0;
 }
+
 
 .section-carrito{
   padding: 90px 0.5rem;
   background-color: #fdeaff; 
   height: 100vh;
+  top:90;
 }
 
 h1{
