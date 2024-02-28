@@ -8,3 +8,7 @@ require("./public/styles/footer.css");
 require("./public/styles/form-oferta.css");
 require("./public/styles/parallax.css");
 require("./public/styles/productos.css");
+
+
+require("./menu.js");
+require("./form.js")
