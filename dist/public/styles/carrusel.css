@@ -1,0 +1,407 @@
+/*Crisangelly Del Valle Hernández Fernández (C.I: 30.954.251)*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.mensaje1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #FC2A11;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.mensaje2{
+  color: #FC2A11;
+  font-family:"Montserrat", sans-serif ;
+  font-weight: 700;
+  font-size:30px;
+  padding: 0 1rem;
+  margin: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.div-boton3{
+  text-align: center;
+}
+
+.boton3{
+  background-color: #F2FF22;
+  color: #FC2A11;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 10px;
+  border: 3px solid #FC2A11;
+  text-align: center;
+  transition: all 0.5s;
+} 
+
+.boton3:hover{
+  background-color: #ff0747; /* Efecto para botón*/
+  color: #ffec07;
+}
+
+.conteiner{
+  background-color: #FFD538;
+  border-radius:10px ;
+  padding-top: 21px;
+  height: 250px;
+  width: 500px;
+}
+
+/* Apartir de aquí es el carrusel de imágenes*/
+
+.conteiner1{
+  height: 700px;
+  width: 700px;
+  text-align: center;
+
+}
+
+.contenido{  
+  margin: 50px 25px 25px 0;
+  height: 190px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mensaje3{
+  color: #FE06A4;
+  font-family:"Montserrat", sans-serif;
+  font-weight: 700 ;
+  font-size: 2.3rem;
+
+}
+
+.mensaje4{
+  color: black;
+  font-family:"Poppins", sans-serif;
+  font-weight: 500 ;
+  font-size: 1.7rem;
+  margin-top: 10px;
+}
+
+.mensaje{
+  font-family:"Montserrat", sans-serif ;
+  color: #561856;
+  text-align: center;
+ /* background-color: aqua;*/
+
+}
+
+#carrusel-caja {
+  -moz-animation: automatizacion 15s infinite linear;
+  -o-animation: automatizacion 15s infinite linear;
+  -webkit-animation: automatizacion 15s infinite linear;
+  animation: automatizacion 15s infinite linear;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75s ease;
+  transition: all 0.75s ease;
+  height: 500px;
+  width: 300%;
+  overflow: hidden;
+}
+#carrusel-img {
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+.imagenes{
+  height: 500px;
+  width: 500px;
+}
+.carrusel-items {
+  float: left;
+  width: 33.333%;
+}
+@-moz-keyframes automatizacion {
+  0% {
+      margin-left: 0;
+  }
+  30% {
+      margin-left: 0;
+  }
+  35% {
+      margin-left: -100%;
+  }
+  65% {
+      margin-left: -100%;
+  }
+  70% {
+      margin-left: -200%;
+  }
+  95% {
+      margin-left: -200%;
+  }
+  100% {
+      margin-left: 0;
+  }
+}
+@-webkit-keyframes automatizacion {
+  0% {
+      margin-left: 0;
+  }
+  30% {
+      margin-left: 0;
+  }
+  35% {
+      margin-left: -100%;
+  }
+  65% {
+      margin-left: -100%;
+  }
+  70% {
+      margin-left: -200%;
+  }
+  95% {
+      margin-left: -200%;
+  }
+  100% {
+      margin-left: 0;
+  }
+}
+@keyframes automatizacion {
+  0% {
+      margin-left: 0;
+  }
+  30% {
+      margin-left: 0;
+  }
+  35% {
+      margin-left: -100%;
+  }
+  65% {
+      margin-left: -100%;
+  }
+  70% {
+      margin-left: -200%;
+  }
+  95% {
+      margin-left: -200%;
+  }
+  100% {
+      margin-left: 0;
+  }
+}
+
+.elemento{
+  height: 570px;
+  width: 800px;
+  margin-bottom: 5px;
+  margin-top: 1px;
+ /* background-color: green;*/
+}
+
+
+.div-anuncio{
+  margin-top: 30px;
+  padding: 50px 10px;
+}
+
+.ejemplo1{
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;           
+  overflow: hidden;
+}
+
+
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin: 0 100px;
+  overflow: hidden;
+}
+
+
+/*Tablet*/
+
+@media(max-width:1024px){
+  main{
+    margin: 0;
+  }
+
+  .div-anuncio{
+    width: 700px;
+    margin: 0 70px;
+  }
+
+  .conteiner{
+    height: 250px;
+    width: 100%;
+  }
+
+  .imagenes{
+    height: 400px;
+    width: 400px;
+  }
+
+  .conteiner1{
+    width: 400px;
+  }
+
+  .mensaje1{
+    font-size: 30px;
+  }
+
+  .boton3{
+    padding: 5px;
+  } 
+
+  .mensaje2{
+    font-size:25px;
+  }
+
+  .mensaje3{
+    font-size: 28px;
+  }
+  
+  .mensaje4{
+    font-size: 23px;
+  }
+
+  .contenido{  
+    margin:0;
+  }
+  
+  .boton3{
+    transition: all 0.3s;
+  }
+
+  .boton3:active{
+    background-color: #ff0747;
+    color: #ffec07;
+  }
+}
+
+@media(max-width:1000px){
+  main{
+    flex-direction: column;
+    margin: 10px 0;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .div-anuncio{
+    margin: 20px auto;
+    padding: 0 30px;
+  }
+
+  .contenido{
+    height: 150px;
+  }
+  
+  .ejemplo1{
+    margin: 0 auto;
+  }
+
+  .conteiner{
+    padding: 45px 0 0;
+  }
+
+  .conteiner1{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+  }
+
+  .elemento{
+    height: 450px;
+  }
+}
+
+/*Mobile*/
+
+@media(max-width:540px){
+  .div-anuncio, .ejemplo1, .elemento{
+    width: 400px;
+  }
+
+  .ejemplo1{
+    margin: 0 auto;
+  }
+}
+
+@media(max-width:500px){
+  .imagenes{
+    height: 200px;
+    width: 200px;
+  }
+  main{
+    margin: 0;
+  }
+
+  .div-anuncio{
+    width: 250px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .conteiner{
+    margin-top: 10px;
+    height: 200px;
+  }
+
+  .mensaje1{
+    font-size: 20px;
+  }
+
+  .mensaje2{
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .mensaje3{
+    font-size: 25px;
+    font-weight: 900;
+  }
+
+  .contenido{
+    margin: 3px 0;
+  }
+  
+  .mensaje4{
+    font-size: 16px;
+  }
+
+  .div-boton3{
+    padding: 20px;
+  }
+
+  .boton3{
+    font-size: 20px;
+    padding: 5px 40px;
+  } 
+
+  .mensaje{
+    font-size: 20px;
+  }
+
+  .ejemplo1{
+    margin-top: 10px;
+  }
+}
+
+@media(max-width:320px){
+  .ejemplo1{
+    width: 250px;
+    height: 250px;
+  }
+  .conteiner1{
+    width: 250px;
+    margin: 0;
+  }
+}

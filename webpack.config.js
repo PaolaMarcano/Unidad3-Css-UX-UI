@@ -25,35 +25,39 @@ module.exports = {
           'css-loader',
         ],
       },
+      {
+        test: /\.(jpe?g|png|gif|svg|webp)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'images/[name]-[hash][ext]'
+        }
+      }
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
-        filename: 'form-carrito.html',
+        filename: 'html/carrito.html',
         template: './src/views/carrito.html'
     }),
     new HtmlWebpackPlugin({
-      filename: 'form-oferta.html',
+      filename: 'html/form-oferta.html',
       template: './src/views/form-oferta.html'
     }),
     new HtmlWebpackPlugin({
-      filename: 'landingpage.html',
+      filename: 'html/landingpage.html',
       template: './src/views/landingpage.html'
     }),
     new HtmlWebpackPlugin({
-      filename: 'productos-decoraciones.html',
+      filename: 'html/productos-decoraciones.html',
       template: './src/views/productos-decoraciones.html'
     }),
     new HtmlWebpackPlugin({
-      filename: 'productos-regalos.html',
+      filename: 'html/productos-regalos.html',
       template: './src/views/productos-regalos.html'
     }),
     new HtmlWebpackPlugin({
-      filename: 'productos.html',
+      filename: 'html/productos.html',
       template: './src/views/productos.html'
     }),
-    new MiniCssExtractPlugin({
-        filename: 'style.css'
-    }),
-]
+  ]
 };

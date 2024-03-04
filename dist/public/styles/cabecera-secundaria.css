@@ -1,0 +1,141 @@
+/* Paola Valentina Marcano Salas (C.I: 30.975.611)  */
+/*Crisangelly Del Valle Hernández Fernández (C.I: 30.954.251)*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ .logo-1{
+  width: 140px;
+  background-color: #9967ce;   
+}
+
+
+.ico-menu i{
+  width: 50px;
+  background-color: #761878;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 50px;
+}
+
+.navbar__li i{
+  color: #fff;
+}
+
+.ico-menu{
+  width: 60px;
+  background-color: #761878;
+} 
+
+.cabecera{
+  position: fixed;
+  width: 100%;
+}
+
+.cabecera__div-escritorio{
+  display: none;
+}
+
+.cabecera__menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  transition: display 0.5s;
+  background-color: #9967ce;
+}
+
+.navbar-desplegable{
+  display: none;
+}
+
+.navbar-mostrar{
+  display: block;
+  background-color: #d6c2eb;
+}
+
+#menu{
+  font-size: 30px;
+  margin: 5px;
+}
+
+.cabecera__h1{
+  font-size: 25px;
+  margin: 5px;
+}
+
+.navbar__li{
+  font-size: 20px;
+  padding: 15px;
+}
+
+a{
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding-left: 3px;
+  color: #fff;
+}
+
+a:active{
+  color: #fff;
+}
+
+
+/* Escritorio */
+@media (min-width: 1024px){
+  .cabecera__div-escritorio{
+    display: flex;
+    flex-direction: row;
+    background-color: #9967ce;
+    justify-content: space-between;
+  }
+
+  .navbar__ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  .navbar__li{
+    padding: 10px 30px;
+    font-size: 17px;
+    border: none;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 50px;
+  }
+
+  a{
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: #d1cfcf;
+  }
+
+  #menu{
+    display: none;
+  }
+  .cabecera__div-responsive{
+    display: none;
+  }
+
+  .logo-1{
+    width: 100px;
+    padding: 0;
+    background-color: #9967ce;   
+  }
+
+  
+  .img-ico{
+    width: 20px;
+    margin: 0 10px;
+  }
+
+}

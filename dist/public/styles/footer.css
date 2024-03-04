@@ -1,0 +1,31 @@
+/* Paola Valentina Marcano Salas (C.I: 30.975.611)  */
+
+footer{
+  background-color: #9967ce;  
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.footer-contenido{
+  text-align: center;
+}
+
+/* Escritorio y tablet */
+@media (min-width: 550px){
+  .footer-contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+  }
+  
+  .footer-contacto{
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .footer-copy{
+    padding: 15px;
+  }
+}
